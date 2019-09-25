@@ -1,0 +1,622 @@
+[
+  {
+    "after": "2",
+    "name": "בולבול",
+    "status": "במגמת ירידה",
+    "text": "ציפור שיר ששואבת את שמה מערבית. בפרסית היא נקראת זמיר. נראית עדינה, אבל למעשה חזקה וחכמה",
+    "audio": "bulbul",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/1430248628.jpg",
+          "version": "1569770989",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919431",
+      "contentName": "בולבול",
+      "accessibility": "בולבול",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "6",
+    "name": "דוכיפת",
+    "status": "במגמת ירידה",
+    "text": "הציפור הלאומית, שמוכרת בזכות ציצית הראש המפוארת שלה. אוהבת מקומות נמוכים ופחות מקננת על עצים",
+    "audio": "duchifat",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/3469531.jpg",
+          "version": "1569770688",
+          "aspects": {
+            "full": {
+              "width": 879,
+              "height": 879
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919418",
+      "contentName": "דוכיפת",
+      "accessibility": "דוכיפת",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "9",
+    "name": "דרור",
+    "status": "לא בסיכון",
+    "text": "ציפור שיר שהסתגלה לחיים בקירבת האדם, בין השאר כי היא אוכלת־כל, גם פירורים בבתי קפה. הדרורים נהנים לעשות אמבטיות שמש וחול",
+    "audio": "dror",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/3380651516.jpg",
+          "version": "1569770761",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919422",
+      "contentName": "דרור",
+      "accessibility": "דרור",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "13",
+    "name": "דררה",
+    "status": "מין פולש משגשג",
+    "text": "ממשפחת התוכאים. נחשבת לאחד המינים הנפוצים בישראל. אפשר למצוא אותה מרמת הגולן ועד אילת",
+    "audio": "drara",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/1070529659.jpg",
+          "version": "1569770850",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919425",
+      "contentName": "דררה",
+      "accessibility": "דררה",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "16",
+    "name": "חוגלה",
+    "status": "בסיכון",
+    "text": "ממשפחת הפסיונים. אינה יכולה לעוף רחוק וקלה לתפיסה, מה שהופך אותה לפופולרית בקרב ציידים, שמוכרים אותה כציפור בכלוב",
+    "audio": "hogla",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/1682472260.jpg",
+          "version": "1569770404",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919406",
+      "contentName": "חוגלה",
+      "accessibility": "חוגלה",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "20",
+    "name": "חוחית",
+    "status": "בירידה, אך לא בסכנה",
+    "text": "ציפור שיר קטנה המבוקשת למאכל ולגידול ביתי בכלובים. ציד חוחיות אינו חוקי בישראל, אך מספרן בטבע בירידה בשל ציד לא חוקי",
+    "audio": "hohit",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/1791853804.jpg",
+          "version": "1569770134",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919403",
+      "contentName": "חוחית",
+      "accessibility": "חוחית",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "23",
+    "name": "חמריה חלודת זנב",
+    "status": "בסכנת הכחדה",
+    "text": "ציפור שיר בינונית. נוהגת לנתר על הקרקע, שירתה קולנית. מקננת בעיקר בצפון הארץ, שיעורה בישראל ירד בכ– 30% בעשור האחרון",
+    "audio": "homriya",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/3183241319.jpg",
+          "version": "1569770077",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919398",
+      "contentName": "חמריה חלודת זנב",
+      "accessibility": "חמריה חלודת זנב",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "27",
+    "name": "חרגולן",
+    "status": "נכחד",
+    "text": "ציפור שיר קטנה. עד 1960 היו חרגולנים רבים בצפון, אך הם נעלמו בעקבות ייבוש החולה. מ– 1990 כבר לא נראו חרגולנים כלל",
+    "audio": "hargolan",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/1465693706.jpg",
+          "version": "1569770485",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919413",
+      "contentName": "חרגולן",
+      "accessibility": "חרגולן",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "29",
+    "name": "מיינה",
+    "status": "מין פולש משגשג",
+    "text": "ציפור שיר אגרסיבית שיודעת גם לחקות קולות סביבה. נחשבת לאוכלת־כל — מפירות ועד ביצי ציפורים אחרות",
+    "audio": "myna",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/953472218.jpg",
+          "version": "1569769967",
+          "aspects": {
+            "full": {
+              "width": 509,
+              "height": 509
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919392",
+      "contentName": "מיינה",
+      "accessibility": "מיינה",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "32",
+    "name": "יונת הבית",
+    "status": "משגשגת מאוד",
+    "text": "תת־מין של יונת הסלע, שבויתה לפני כ– 3,000 שנה. מהווה מטרד בעיקר לבני האדם אך לא מסכנת מינים אחרים, פרט ליונת הסלע",
+    "audio": "pigeon",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/3225911204.jpg",
+          "version": "1569769728",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919385",
+      "contentName": "יונת הבית",
+      "accessibility": "יונת הבית",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "35",
+    "name": "נחליאלי",
+    "status": "עתידו בסכנה",
+    "text": "בישראל נפוצים ארבעה מינים, המוכר ביותר הוא נחליאלי לבן, שחורף בישראל. נותרו פחות מ– 50 פרטים שמקננים בישראל בקביעות",
+    "audio": "nahlieli",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/1475420044.jpg",
+          "version": "1569769859",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919390",
+      "contentName": "נחליאלי",
+      "accessibility": "נחליאלי",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "38",
+    "name": "נקר סורי",
+    "status": "במגמת ירידה",
+    "text": "לנקרים יש לשון ארוכה שבעזרתה הם מוצאים מזון בתוך נקבי עצים. הנקר מקנן בתוך חורים של עצים, מה שמזמן לו תחרות עם המיינה",
+    "audio": "woodpacker",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/2243616866.jpg",
+          "version": "1569768058",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919345",
+      "contentName": "נקר סורי",
+      "accessibility": "נקר סורי",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "40",
+    "name": "עורב אפור",
+    "status": "מין מתפרץ",
+    "text": "ציפור אינטליגנטית, שמבלה את רוב זמנה על הקרקע או בניתור ממקום למקום. מותאמת היטב לחיים עירוניים ורגילה להיות בקירבת בני אדם",
+    "audio": "hoodedCrow",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/752547578.jpg",
+          "version": "1569769668",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919382",
+      "contentName": "עורב אפור",
+      "accessibility": "עורב אפור",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "45",
+    "name": "עורב הודי",
+    "status": "מין פולש",
+    "text": "ניזון מהכל — משאריות אשפה ועד עכברים. נחשב למין חכם, שיודע להפגין התנהגות תוקפנית כלפי ציפורים אחרות, וגם כלפי בני אדם",
+    "audio": "houseCrow",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/195371925.jpg",
+          "version": "1569770905",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919427",
+      "contentName": "עורב הודי",
+      "accessibility": "עורב הודי",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "50",
+    "name": "עפרוני מצויץ",
+    "status": "במגמת ירידה",
+    "text": "ציפור שיר מדברית שמבלה את זמנה על הקרקע. נחשבת למין יציב בכל העולם, וגם בישראל. סוג אחר של עפרוני, עפרוני־פסגות, נכחד מאזורנו",
+    "audio": "efroni",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/925799789.jpg",
+          "version": "1569770559",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919417",
+      "contentName": "עפרוני מצויץ",
+      "accessibility": "עפרוני מצויץ",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "55",
+    "name": "פשוש",
+    "status": "במגמת ירידה",
+    "text": "ציפור שיר זעירה וחמודה, ועל כן הפך שמה לכינוי חיבה. מהציפורים הנפוצות בישראל. לא אוהבת קור, ולכן מזג האוויר כאן אידיאלי בשבילה",
+    "audio": "pashosh",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/3253644374.jpg",
+          "version": "1569769792",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919388",
+      "contentName": "פשוש",
+      "accessibility": "פשוש",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "57",
+    "name": "צוצלת",
+    "status": "משגשגת מאוד",
+    "text": "נחשבת למין הפולש הראשון. הובאה לכאן בתחילת המאה הקודמת כחיית מחמד והצליחה להתבסס כמין השני הנפוץ בישראל",
+    "audio": "laughingDove",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/2880021413.jpg",
+          "version": "1569769151",
+          "aspects": {
+            "full": {
+              "width": 692,
+              "height": 692
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919372",
+      "contentName": "צוצלת",
+      "accessibility": "צוצלת",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "61",
+    "name": "שחרור",
+    "status": "בסיכון",
+    "text": "ציפור שיר חששנית עם צרחה גבוהה. במקור רק נדדה מאירופה ובילתה את החורף בישראל, אבל הסתגלה לכאן ונשארה",
+    "audio": "shahrur",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/2847551534.jpg",
+          "version": "1569769603",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919378",
+      "contentName": "שחרור",
+      "accessibility": "שחרור",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "66",
+    "name": "שליו",
+    "status": "בסכנת הכחדה חמורה",
+    "text": "ממשפחת התרנגולאים. בעבר היה שכיח מאוד בעונת הנדידה, אך בשני העשורים האחרונים כמעט נעלם, למעט פרטים בודדים",
+    "audio": "quail",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/1200995821.jpg",
+          "version": "1569769524",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919377",
+      "contentName": "שליו",
+      "accessibility": "שליו",
+      "kind": "image"
+    }
+  },
+  {
+    "after": "71",
+    "name": "תור מצוי",
+    "status": "קרוב לסיכון",
+    "text": "ממשפחת היונים. ציפור צמחונית שחיה בפרדסים. נהגה לקייץ בישראל, אבל היום נראית פחות ופחות",
+    "audio": "turtleDove",
+    "image": {
+      "photographer": "",
+      "credit": "",
+      "imgArray": [
+        {
+          "imgName": "image/113196688.jpg",
+          "version": "1569769355",
+          "aspects": {
+            "full": {
+              "width": 510,
+              "height": 510
+            }
+          }
+        }
+      ],
+      "imageType": "image",
+      "isAnimatedGif": false,
+      "useFastlyFormat": false,
+      "inputTemplate": "com.tm.Image",
+      "contentId": "1.7919376",
+      "contentName": "תור מצוי",
+      "accessibility": "תור מצוי",
+      "kind": "image"
+    }
+  }
+]

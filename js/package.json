@@ -1,0 +1,29 @@
+{
+  "name": "htz-birds-interactive-js",
+  "version": "1.0.0",
+  "author": "TxHawks",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf dist/** && NODE_ENV=production rollup -c",
+    "watch": "NODE_ENV=dev rollup -c -w"
+  },
+  "config": {
+    "publicDir": "../static/js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "core-js": "^3.2.1",
+    "dynamic-import-polyfill": "^0.1.1",
+    "lazysizes": "^5.1.1",
+    "regenerator-runtime": "^0.13.3",
+    "rollup": "^1.22.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^5.1.2"
+  }
+}
