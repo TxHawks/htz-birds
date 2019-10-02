@@ -1,13 +1,14 @@
 import Document, {  Head, Html, Main, } from 'next/document'
-// import Document, {  Head, Html, Main, NextScript, } from 'next/document'
 import { renderToSheetList } from 'fela-dom'
-import { theme, cssReset, fontStacks, } from '../theme/index';
 import { StyleProvider as FelaProvider, createRenderer, } from '@haaretz/fela-utils';
+
+import { theme, cssReset, fontStacks, } from '../theme/index';
+import Seo from '../components/Seo';
 
 import preload from '../static/js/preload.json';
 import fileManifest from '../static/js/file-manifest.json';
 import audioFiles from '../static/js/audioFiles.json';
-
+import data from '../data/data.json';
 
 const styleRenderer = createRenderer({ isRtl: true, });
 
@@ -102,11 +103,90 @@ export default class CustomDocument extends Document {
     return (
       <Html lang="he" dir="rtl">
         <CustomHead>
+          <title>{data.seoData.metaTitle}</title>
+          {/* Assets and domains */}
           <PreloadJS />
+          <link rel="preconnect" href="//images.haaretz.co.il" />
+          <link rel=" dns-prefetch" href="//images.haaretz.co.il" />
           <Polyfills isPolyfill/>
+
+          {/* FAVICONS */}
+          <link rel="shortcut icon" href={'/static/htz/images/favicon.ico'} />
+          <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href={'/static/htz/images/apple-touch-icon-152x152.png'}
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href={'/static/htz/images/apple-touch-icon-144x144.png'}
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href={'/static/htz/images/apple-touch-icon-120x120.png'}
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href={'/static/htz/images/apple-touch-icon-114x114.png'}
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href={'/static/htz/images/apple-touch-icon-72x72.png'}
+          />
+
+          <meta
+            name="msapplication-TileColor"
+            content="#0B7EB5"
+            key="msapplication-TileColor"
+          />
+          <meta
+            name="msapplication-TileImage"
+            content={`/static/htz/images/mstile-144x144.png`}
+            key="msapplication-TileImage"
+          />
+
           {styleNodes}
 
           <PreloadAudio />
+
+          <Seo {...data.seoData} />
+
+          {/* Chartbeat */}
+          <React.Fragment>
+            <script
+              type="text/javascript"
+              // eslint-disable-next-line react/no-danger
+              dangerouslySetInnerHTML={{
+                __html: `
+              var _sf_async_config = _sf_async_config || {};
+              /** CONFIGURATION START **/
+              _sf_async_config.sections = 'סוף שבוע';
+              _sf_async_config.authors = 'נטע אחיטוב';
+              var _sf_startpt = (new Date()).getTime();
+              /** CONFIGURATION END **/
+              (function() {
+                function loadChartbeat() {
+                  var e = document.createElement('script');
+                  e.setAttribute('language', 'javascript');
+                  e.setAttribute('type', 'text/javascript');
+                  e.setAttribute('src','https://s3.amazonaws.com/static.chartbeat.com/js/chartbeat.js');
+                  document.body.appendChild(e);
+                }
+                  var oldonload = window.onload;
+                  window.onload = (typeof window.onload != 'function')
+                    ? loadChartbeat
+                    : function() {
+                      oldonload();
+                      loadChartbeat();
+                    };
+                })();`,
+              }}
+            />
+          </React.Fragment>
         </CustomHead>
         <body>
           <Main />
@@ -115,8 +195,12 @@ export default class CustomDocument extends Document {
           {/* <NextScript /> */}
           <script type="module" src={`./static/js/${fileManifest.index}`}></script>
           <script noModule src={`./static/js/${fileManifest.indexNomodule}`}></script>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: data.jsonld[0], }}
+          />
         </body>
       </Html>
-    )
+    );
   }
 }
