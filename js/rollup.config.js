@@ -136,8 +136,8 @@ const moduleConfig = {
   output: {
     dir: pkg.config.publicDir,
     format: 'esm',
-    entryFileNames: '[name]-[hash].mjs',
-    chunkFileNames: '[name]-[hash].mjs',
+    entryFileNames: '[name]-[hash].js',
+    chunkFileNames: '[name]-[hash].js',
     dynamicImportFunction: '__import__',
   },
   plugins: [
@@ -176,7 +176,7 @@ const nomoduleConfig = {
   output: {
     dir: pkg.config.publicDir,
     format: 'iife',
-    entryFileNames: '[name]-[hash].js',
+    entryFileNames: '[name]-nomodule-[hash].js',
   },
   plugins: basePlugins({nomodule: true}),
   inlineDynamicImports: true,
