@@ -10,7 +10,7 @@ export default function Mainpage() {
   const articleClasses = css({
     // backgroundImage: 'linear-gradient(to bottom, rgba(233,210,169,1) 0%, rgba(233,210,169,0) 30%),url(assets/bg.jpg)',
     // backgroundRepeat: 'no-repeat, repeat',
-    backgroundImage: 'url(./static/images/bg.jpg)',
+    backgroundImage: 'url(https://images.haarets.co.il/image/upload/f_auto,q_auto/v1570030424/1.7926696.648593241.jpg)',
     backgroundRepeat: 'repeat',
     paddingBottom: '8rem',
     ':after': {
