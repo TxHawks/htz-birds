@@ -125,7 +125,8 @@ export default function Hero() {
     marginTop: '-5rem',
 
     extend: [
-      theme.type(3, { lines: 6, }),
+      theme.type(2, { untilBp: 's', }),
+      theme.type(3, { fromBp: 's', lines: 6, }),
       theme.mq({ from: 's', until: 'm', }, { marginTop: '-10rem', }),
       theme.mq({ from: 'm', until: 'xl', }, { marginTop: '-12rem', }),
       theme.mq({ from: 'xl', }, { marginTop: '-10rem', }),
