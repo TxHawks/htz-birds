@@ -10,7 +10,8 @@
     "export": "rm -rf .next out *.html && yarn build && next export && cp out/*.html ./",
     "build:next": "next build",
     "build:js": "cd js && yarn build",
-    "build": "yarn build:js && yarn build:next"
+    "build": "yarn build:js && yarn build:next",
+    "deploy": "ssh polopoly@172.21.1.80 'rm -rf /http-static/c/static/heb/2019/birds-project/**' && cd out && scp -r ./ polopoly@172.21.1.80:/http-static/c/static/heb/2019/birds-project/"
   },
   "dependencies": {
     "@haaretz/fela-utils": "^0.2.0",
