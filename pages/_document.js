@@ -54,8 +54,10 @@ function PreloadJS() {
   ));
 }
 function PreloadAudio() {
+  // Preloading audio as images because, despite being in the spec,
+  // audio isn't preloaded by browsers
   return audioFiles.map(filename => (
-    <link rel="preload" as="audio" href={`./static/audio/${filename}`} />
+    <link rel="preload" as="image" href={`./static/audio/${filename}`} />
   ));
 }
 
