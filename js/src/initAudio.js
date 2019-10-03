@@ -5,6 +5,7 @@ const autoplayIcon = document.getElementById('autoplayIcon');
 const autoplayIsPlayingText = autoplayBtn.dataset.playingText;
 const autoplayIsPausedText = autoplayBtn.dataset.pausedText;
 const autoplayBtnText = document.getElementById('autoplayBtnText');
+const playBtns = Array.from(document.getElementsByClassName('jsPlayBtn'));
 
 const introAudio = audioEl.src;
 
@@ -23,15 +24,10 @@ export default function initAudio() {
 function autoplayInit() {
   // initialize autoplay button
   autoplayBtn.addEventListener('mousedown', (evt) => {
-    if (audioEl.paused) enableAutoplay();
-    else disableAutoplay();
+    if (isAutoplayEnabled) disableAutoplay();
+    else enableAutoplay();
   });
 }
-
-// function startAutoplayOnAnyClick() {
-//   enableAutoplay();
-//   document.removeEventListener('mousedown', startAutoplayOnAnyClick);
-// }
 
 function onIntersect(entries, observer) {
   entries.forEach(entry => {
@@ -46,9 +42,7 @@ function onIntersect(entries, observer) {
 }
 
 function initPlayPauseBtns() {
-  const btns = Array.from(document.getElementsByClassName('jsPlayBtn'));
-
-  btns.forEach(btn => {
+  playBtns.forEach(btn => {
     btn.addEventListener('mouseup', evt => {
       if (isPlaying(btn)) pauseSound(btn, { shouldDisableAutoplay: true, });
       else playSound(btn);
@@ -105,6 +99,9 @@ function disableAutoplay({ restoreAudio = true, } = {}) {
   if (restoreAudio) audioEl.src = introAudio;
   audioEl.pause();
   infosSentinal.disconnect();
+  playBtns.forEach(btn => {
+    pauseSound(btn, { shouldDisableAutoplay: false, force: true, });
+  });
 }
 
 function enableAutoplay({ restoreAudio = true, } = {}) {
