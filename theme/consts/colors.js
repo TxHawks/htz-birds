@@ -418,6 +418,7 @@ const colors = {
   highlight: {
     base: [ 'quaternary', 'base', ],
     dimm: [ 'quaternary', '-2', ],
+    dark: [ 'quaternary', '+2', ],
   },
   icon: {
     base: [ 'primary', 'base', ],

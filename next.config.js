@@ -11,7 +11,8 @@ module.exports = {
   // },
   exportPathMap: function() {
     return {
-      '/': { page: '/' }
+      '/': { page: '/' },
+      '/closed': { page: '/closed' },
     };
   }
 };

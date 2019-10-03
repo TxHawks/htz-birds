@@ -1,15 +1,16 @@
-import * as React from 'react';
 import { useFela, } from 'react-fela';
-import useData from '../hooks/useData';
-import ArticleImage from './ArticleImage';
-import PullQuote from './PullQuote';
-import BirdInfo from './BirdInfo';
+import * as React from 'react';
 
+import ArticleImage from './ArticleImage';
+import BirdInfo from './BirdInfo';
+import PromotionBanner from './PromotionBanner';
+import PullQuote from './PullQuote';
 import birdsInfo from '../data/birdsInfo.json'
+import useData from '../hooks/useData';
 
 // const birdData = birdsInfo[2];
 
-export default function ArticleBody() {
+export default function ArticleBody({ isClosed, }) {
   const { css, theme, } = useFela();
   const bodyData = useData('body');
   const focusActiveStyles = {
@@ -81,12 +82,12 @@ export default function ArticleBody() {
 
   return (
     <section className={sectionClasses}>
-      {renderData(bodyData)}
+      {renderData(bodyData, isClosed)}
     </section>
   );
 }
 
-function renderData(data) {
+function renderData(data, isClosed) {
   const elements = data
     .map(element => {
       if (element.kind === 'htmlString') {
@@ -128,7 +129,13 @@ function renderData(data) {
     })
     .filter(element => element != null);
 
-  birdsInfo.forEach(item => { elements.splice(item.after, 0, <BirdInfo {...item} />); })
+  if (isClosed) {
+    elements.length = 1;
+    elements.push(<PromotionBanner />)
+  }
+  else {
+    birdsInfo.forEach(item => { elements.splice(item.after, 0, <BirdInfo {...item} />); })
+  }
 
   return elements;
 }
