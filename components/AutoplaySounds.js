@@ -8,7 +8,7 @@ export default function AutoplaySounds() {
 
   const className = css({
     fontWeight: '700',
-    marginTop: '5rem',
+    // marginTop: '5rem',
 
     transition: 'all 0.1s',
     '&:hover': {
@@ -31,8 +31,8 @@ export default function AutoplaySounds() {
   return (
     <React.Fragment>
       <button
-        data-playing-text="השתק קול"
-        data-paused-text="הפעל קול"
+        data-playing-text="השתיקו קול"
+        data-paused-text="הפעילו קול"
         className={className}
         id="autoplayBtn"
       >
@@ -43,7 +43,7 @@ export default function AutoplaySounds() {
           attrs={{ id: 'autoplayIcon' }}
         />
         &nbsp;
-        <span id="autoplayBtnText">הפעל קול</span>
+        <span id="autoplayBtnText">הפעילו קול</span>
       </button>
       <audio id="audioEl" preload="auto" autoPlay src="./static/audio/00intro.mp3" />
     </React.Fragment>

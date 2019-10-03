@@ -19,6 +19,7 @@ function captionWrapperStyle({
     fontFamily,
     fontWeight,
     extend: [
+      theme.mq({ until: 's', }, { padding: '0 2rem', }),
       // Set background color
       ...(backgroundColor || bgc
         ? [

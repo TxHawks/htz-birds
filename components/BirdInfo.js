@@ -7,6 +7,7 @@ import getImageAssets from '../utils/getImageAssets';
 
 export default function BirdInfo({ name, status, text, audio, image, }) {
   const { css, theme, } = useFela();
+  const imgWithTitle = { ...image, title: name, };
 
   const imgOptions = getImageAssets({
     bps: theme.bps,
@@ -77,7 +78,7 @@ export default function BirdInfo({ name, status, text, audio, image, }) {
       <div className={imgWrapperClasses}>
         <Image
           contentId={image.contentId}
-          data={image}
+          data={imgWithTitle}
           options={imgOptions}
           isLazyload
         />
@@ -99,7 +100,6 @@ export default function BirdInfo({ name, status, text, audio, image, }) {
       <header className={css({ gridArea: 'header', })}>
         <h3 className={nameClasses}>{name}</h3>
         <p className={statusClasses}>
-          <span className={css({fontWeight: 700, })}>מצב: </span>
           {status}
         </p>
       </header>
@@ -110,15 +110,15 @@ export default function BirdInfo({ name, status, text, audio, image, }) {
         />
         <span
           id={`bird_${audio}`}
-          data-text-play={`לחצו לשמיעת ציוץ של ${name}`}
-          data-text-pause="השתק קול"
+          data-text-play={`לחצו לשמיעת הציוץ של ${name}`}
+          data-text-pause="השתיקו קול"
           className={'jsBirdInfoStatusText ' + css({
             marginInlineStart: '1rem',
             fontWeight: '700',
             extend: [ theme.type(-2), ],
           })}
         >
-          לחצו לשמיעת ציוץ של {name}
+          לחצו לשמיעת הציוץ של {name}
         </span>
       </div>
       <p className={textClasses}>{text}</p>

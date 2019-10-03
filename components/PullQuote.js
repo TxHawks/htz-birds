@@ -13,7 +13,7 @@ export default function PullQuote({ children, }) {
     textAlign: 'center',
 
     extend: [
-      theme.type(5, { lines: 7, untilBp: 's', }),
+      theme.type(4, { lines: 7, untilBp: 's', }),
       theme.type(5, { lines: 8, fromBp: 's', }),
       theme.mq({ until: 'l', }, { margin: '1rem auto 6rem', }),
       theme.mq({ from: 'l', until: 'xl', }, { margin: '-5rem -15rem 6rem', }),
