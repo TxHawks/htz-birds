@@ -14,6 +14,10 @@ export default async function lazyloadImage() {
     });
   }
   else {
+    console.log(
+      '[htz]: Native lazyloading is not supported by the browser.',
+      'Loading lazysizes...',
+    );
     const lazySizesLib = await import('lazysizes');
 
     // lazysizes adds a global, so initializing that instead of the module reference
