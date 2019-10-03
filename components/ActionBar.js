@@ -95,7 +95,7 @@ function ShareIcons() {
 				id="whatsappShare"
         className={css(btnStyle(false))}
         title="שתפו בוואטצאפ"
-        href={`whatsapp://send?text=${encodeURIComponent(`${seoData.ogTitle}\nhttps://www.haaretz.co.il/st/c/static/heb/2019/birds`)}`}
+        href={`whatsapp://send?text=${encodeURIComponent(`${seoData.ogTitle}\nhttps://www.haaretz.co.il/st/c/static/heb/2019/birds-project/`)}`}
       >
         <IconWhatsapp
           size={5}
