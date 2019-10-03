@@ -7,6 +7,7 @@ const autoplayIsPausedText = autoplayBtn.dataset.pausedText;
 const autoplayBtnText = document.getElementById('autoplayBtnText');
 
 const introAudio = audioEl.src;
+
 const infosSentinal = new IntersectionObserver(onIntersect, {
   root: null,
   rootMargin: '0px',
@@ -14,6 +15,7 @@ const infosSentinal = new IntersectionObserver(onIntersect, {
 });
 
 export default function initAudio() {
+
   autoplayInit();
   initPlayPauseBtns();
 }
@@ -115,6 +117,8 @@ function enableAutoplay({ restoreAudio = true, } = {}) {
   const infos = Array.from(document.getElementsByClassName('jsBirdInfo'));
   // initialize play-by-viewport
   infos.forEach(info => { infosSentinal.observe(info); });
+
+  if (typeof ga === 'function') ga('send', 'event', 'Interactive-birds', 'autoplay-sound');
 }
 
 function getSrc(filename) {
