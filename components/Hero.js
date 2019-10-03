@@ -1,8 +1,6 @@
 import { useFela, } from 'react-fela'
 import * as React from 'react';
 
-import AutoplaySounds from './AutoplaySounds';
-
 export default function Hero() {
   const { css, theme, } = useFela();
 
@@ -195,8 +193,6 @@ export default function Hero() {
           <a href="/misc/writers/WRITER-1.1702083">נטע אחיטוב</a>
         </address>
       </footer>
-
-      <AutoplaySounds />
     </header>
   )
 }

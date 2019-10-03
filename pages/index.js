@@ -1,9 +1,10 @@
-import * as React from 'react';
 import { useFela, } from 'react-fela';
+import * as React from 'react';
 
-import Masthead from '../components/Masthead';
-import Hero from '../components/Hero';
+import ActionBar from '../components/ActionBar';
 import ArticleBody from '../components/ArticleBody';
+import Hero from '../components/Hero';
+import Masthead from '../components/Masthead';
 
 export default function Mainpage() {
   const { css, theme } = useFela();
@@ -29,6 +30,7 @@ export default function Mainpage() {
       <Masthead />
       <article className={articleClasses}>
         <Hero />
+        <ActionBar />
         <ArticleBody />
       </article>
     </React.Fragment>
