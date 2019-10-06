@@ -10,14 +10,14 @@ export default function IconSpeaker({ size, fill, color, attrs, miscStyle, }) {
     {
       verticalAlign: '-0.27em',
       '&>.speaker__muteBar': {
-        transform: 'rotate(-45deg) translate(-0.5em, 0.2em) scale(1.1,1)',
+        opacity: '0.5',
+        transform: 'rotate(-45deg) translate(-0.5em, 0.2em) scale(1.1,0)',
         transformOrigin: 'top left',
         transition: 'all 0.3s',
-        opacity: '1',
       },
       '&.isPaused>.speaker__muteBar': {
-        transform: 'rotate(-45deg) translate(-0.5em, 0.2em) scale(1.1,0)',
-        opacity: '0.5',
+        opacity: '1',
+        transform: 'rotate(-45deg) translate(-0.5em, 0.2em) scale(1.1,1)',
       },
     },
     miscStyle
