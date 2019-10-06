@@ -21,28 +21,14 @@ export default function BirdInfo({ name, status, text, audio, image, credit, }) 
 
   const asideClasses = css({
     display: 'grid',
-    // gridTemplateAreas:`
-    // "img content"
-    // "btn content"
-    // `,
     gridRowGap: '2rem',
     gridTemplateAreas:`
     "img rule header"
     "img rule btn"
     "img rule text"
     `,
-    gridTemplateColumns: 'minmax(100px,34rem) 1rem minmax(36rem,1fr)',
+    gridTemplateColumns: 'minmax(100px,34rem) 1rem minmax(32rem,1fr)',
     gridTemplateRows: 'auto auto 1fr',
-
-    extend: [
-      // theme.mq({ from: 'l', }, {
-      //   gridTemplateAreas:`
-      //   "img btn"
-      //   "img content"
-      //   "img content"
-      //   `,
-      // }),
-    ],
   });
   const imgWrapperClasses = css({
     alignSelf: 'start',

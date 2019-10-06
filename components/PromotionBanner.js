@@ -92,7 +92,8 @@ export default function PromotionBanner() {
         <p className={headerClasses}>לא תעופו מקריאת הכתבה הזו, אבל ציוצים של ציפורים בהחלט תוכלו לשמוע</p>
 
         <a
-          href="/promotions-page"
+          id="purchaseBtn"
+          href="https://promotions.haaretz.co.il/promotions-page/?htm_source=article&htm_medium=banner&htm_campaign=birds&htm_content=subscription"
           className={ctaClasses}
         >
           לרכישה
@@ -100,7 +101,7 @@ export default function PromotionBanner() {
         <br />
         <a
           id="loginLink"
-          href="/login-page"
+          href="https://login.haaretz.co.il"
           className={loginClasses}
         >
           כבר מנויים? התחברו

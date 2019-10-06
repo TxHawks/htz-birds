@@ -18,9 +18,12 @@ export default function ShareBar(props) {
     height: '5rem',
   });
   const wrapperClasses = css({
+    display: 'flex',
     fontWeight: '700',
-    textAlign: 'center',
+    justifyContent: 'center',
+    padding: '1rem 0 0',
     position: 'sticky',
+    textAlign: 'center',
     top: '0',
 
     '&.isSticky': {
@@ -54,13 +57,12 @@ function ShareIcons() {
   const wrapperClasses = css({
     display: 'none',
     overflow: 'hidden',
-    transform: 'translateY(1.7rem)',
     whiteSpace: 'nowrap',
   });
 
   const btnStyle = isFirst => ({
     padding: '0 0.75rem',
-    ...(isFirst ? { marginInlineStart: '2rem', } : {}),
+    ...(isFirst ? { marginInlineStart: '1rem', } : {}),
   });
 
   return (

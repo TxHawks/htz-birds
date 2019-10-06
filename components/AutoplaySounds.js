@@ -24,26 +24,30 @@ export default function AutoplaySounds() {
     },
 
     extend: [
-      theme.type(3),
+      theme.type(1, { untilBp: 's', }),
+      theme.type(3, { fromBp: 's', }),
+      theme.mq({ until: 's', }, {
+        marginInlineStart: '2rem',
+      }),
     ],
   });
 
   return (
     <React.Fragment>
       <button
-        data-playing-text="השתיקו קול"
-        data-paused-text="הפעילו קול"
+        data-playing-text="לחצו להשתקת קול"
+        data-paused-text="לחצו להפעלת קול"
         className={className}
         id="autoplayBtn"
       >
         <IconSpeaker
-          size={6}
+          size={[{ until: 's', value: 4, }, { from: 's', value: 5}, ]}
           color={[ 'green', '+1', ]}
           fill="cream"
-          attrs={{ id: 'autoplayIcon' }}
+          attrs={{ id: 'autoplayIcon', }}
         />
         &nbsp;
-        <span id="autoplayBtnText">הפעילו קול</span>
+        <span id="autoplayBtnText">לחצו להפעלת קול</span>
       </button>
       <audio id="audioEl" preload="auto" autoPlay src="./static/audio/00intro.mp3" />
     </React.Fragment>
