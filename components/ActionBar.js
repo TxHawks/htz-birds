@@ -93,9 +93,24 @@ function ShareIcons() {
       </button>
       <a
 				id="whatsappShare"
-        className={css(btnStyle(false))}
+        className={css(btnStyle(false), { extend: [ theme.mq({ from: 'l', }, { display: 'none', }) ] })}
         title="שתפו בוואטצאפ"
         href={`whatsapp://send?text=${encodeURIComponent(`${seoData.ogTitle}\nhttps://www.haaretz.co.il/st/c/static/heb/2019/birds-project/`)}`}
+      >
+        <IconWhatsapp
+          size={5}
+          color={[ 'whatsapp', '+2' ]}
+        />
+        <VisuallyHidden>
+          שתפו בוואטצאפ
+        </VisuallyHidden>
+      </a>
+      <a
+				id="whatsappShare"
+        className={css(btnStyle(false), { extend: [ theme.mq({ until: 'l', }, { display: 'none', }) ] })}
+        title="שתפו בוואטצאפ"
+        href={`https://web.whatsapp.com/send?text=${encodeURIComponent(`${seoData.ogTitle}\nhttps://www.haaretz.co.il/st/c/static/heb/2019/birds-project/`)}`}
+        target="_blank"
       >
         <IconWhatsapp
           size={5}
