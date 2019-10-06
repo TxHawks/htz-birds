@@ -11,13 +11,14 @@ export default function Image({ isLazyload, data, options, removeTitle, miscStyl
   const hasSrcset = transforms.length > 1;
   const contentId = data.contentId;
 
-  const title =
-    data.title
-      ? `${data.title}. `
-      : ''
-    + data.credit
-      ? `צילום: ${data.credit}`
-      : '';
+  const title = `${
+    data.title || ''
+  }${
+    data.title && data.credit ? '. ' : ''
+  }${
+    data.credit ? `צילום: ${data.credit}` : ''
+  }`;
+
   const src = buildImgUrl(contentId, imgData, transforms[0]);
   const srcset = hasSrcset ? buildImgUrls(contentId, imgData, transforms) : undefined;
   const attrsPrefix = isLazyload ? 'data-' : '';

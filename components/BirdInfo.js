@@ -5,9 +5,9 @@ import Image from './Image';
 import PlayPauseButton from './PlayPauseButton';
 import getImageAssets from '../utils/getImageAssets';
 
-export default function BirdInfo({ name, status, text, audio, image, }) {
+export default function BirdInfo({ name, status, text, audio, image, credit, }) {
   const { css, theme, } = useFela();
-  const imgWithTitle = { ...image, title: name, };
+  const imgWithTitle = { ...image, title: name, credit,};
 
   const imgOptions = getImageAssets({
     bps: theme.bps,
