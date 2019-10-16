@@ -1,15 +1,25 @@
 // Elements
 const sentinalEl = document.getElementById('actionBarSentinal');
 const actionBarEl = document.getElementById('actionBar');
+const autoplayBtnEl = document.getElementById('autoplayBtn');
 
 export default function initActionBar() {
-  const sentinal = new IntersectionObserver(onIntersect, { threshold: [0, 0.5, 1], });
-  sentinal.observe(sentinalEl);
+  const stickySentinal = new IntersectionObserver(handleStickiness, { threshold: [ 0, 0.5, 1 ], });
+  const highlightSentinal = new IntersectionObserver(handleHighlight, { rootMargin: '0px 0px -25% 0px', });
+  stickySentinal.observe(sentinalEl);
+  highlightSentinal.observe(sentinalEl);
   initSocial();
 
 }
 
-function onIntersect(entries) {
+function handleHighlight(entries) {
+  const [ entry, ] = entries;
+  const { boundingClientRect, isIntersecting, } = entry;
+
+  if (isIntersecting) autoplayBtnEl.classList.add('isHighlighted');
+  else autoplayBtnEl.classList.remove('isHighlighted');
+}
+function handleStickiness(entries) {
   const [ entry, ] = entries;
   const { boundingClientRect, isIntersecting, } = entry;
   const { y, } = boundingClientRect;

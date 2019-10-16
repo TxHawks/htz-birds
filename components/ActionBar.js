@@ -36,7 +36,7 @@ export default function ShareBar(props) {
       animationName: keyframes,
       animationDuration: '0.7s',
       animationFillMode: 'forwards',
-      display: 'inline-block',
+      display: 'block',
     }
   });
 
@@ -56,13 +56,14 @@ function ShareIcons() {
   const { css, theme, } = useFela();
   const wrapperClasses = css({
     display: 'none',
+    flexGrow: '0',
     overflow: 'hidden',
     whiteSpace: 'nowrap',
   });
 
   const btnStyle = isFirst => ({
-    padding: '0 0.75rem',
-    ...(isFirst ? { marginInlineStart: '1rem', } : {}),
+    padding: '0 0.5rem',
+    // ...(isFirst ? { marginInlineStart: '1rem', } : {}),
   });
 
   return (
@@ -82,7 +83,9 @@ function ShareIcons() {
       </button>
       <button
 				id="twitterShare"
-        className={css(btnStyle(false))}
+        className={css(btnStyle(false), {
+          '@media (max-width: 23.375em)': { display: 'none', },
+        })}
         title="שתפו בטוויטר"
       >
         <IconTwitter
