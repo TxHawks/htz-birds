@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "next",
     "dev:js": "cd js && yarn watch",
-    "export": "rm -rf .next out *.html && yarn build && next export && cp out/*.html ./",
+    "export": "rm -rf .next out static/js/** *.html && yarn build && next export && cp out/*.html ./",
     "build:next": "next build",
     "build:js": "cd js && yarn build",
     "build": "yarn build:js && yarn build:next",
