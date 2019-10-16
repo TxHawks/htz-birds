@@ -94,6 +94,7 @@ function pauseSound(btn, { restoreAudio, shouldDisableAutoplay, force, } = {}) {
 
 function disableAutoplay({ restoreAudio = true, } = {}) {
   isAutoplayEnabled = false;
+  audioEl.autoplay = isAutoplayEnabled;
   autoplayIcon.classList.add('isPaused');
   autoplayBtnText.textContent = autoplayIsPausedText;
   if (restoreAudio) audioEl.src = introAudio;
@@ -106,6 +107,7 @@ function disableAutoplay({ restoreAudio = true, } = {}) {
 
 function enableAutoplay({ restoreAudio = true, } = {}) {
   isAutoplayEnabled = true;
+  audioEl.autoplay = isAutoplayEnabled;
   autoplayIcon.classList.remove('isPaused');
   autoplayBtnText.textContent = autoplayIsPlayingText;
   if (restoreAudio) audioEl.src = introAudio;
