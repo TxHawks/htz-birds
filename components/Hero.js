@@ -146,14 +146,14 @@ export default function Hero() {
       <div className={ImgWrapperClasses}>
         <img
           className={ImgClasses}
-          src="https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_320/v1569766334/1.7912412.961090896.jpg"
+          src="https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=320"
           srcSet={[
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_320/v1569766334/1.7912412.69811424.jpg 320w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_375/v1569766334/1.7912412.69811424.jpg 375w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_414/v1569766334/1.7912412.69811424.jpg 414w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_600/v1569766334/1.7912412.69811424.jpg 600w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_768/v1569766334/1.7912412.69811424.jpg 768w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_1000/v1569766334/1.7912412.69811424.jpg 1000w',
+            'https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=320 320w',
+            'https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=375 375w',
+            'https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=414 414w',
+            'https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=600 600w',
+            'https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=768 768w',
+            'https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=1000 1000w',
           ].join(',')}
           sizes="(min-width: 1000px) 1000px, 100vw"
           role="presentation"
@@ -161,14 +161,14 @@ export default function Hero() {
         />
         <img
           className={Img2Classes}
-          src="https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_320/v1569766746/1.7919327.4101634296.jpg"
+          src="https://img.haarets.co.il/img/1.7919327/4101634296.jpg?width=180"
           srcSet={[
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_180/v1569766746/1.7919327.4101634296.jpg 180w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_270/v1569766746/1.7919327.4101634296.jpg 270w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_360/v1569766746/1.7919327.4101634296.jpg 360w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_434/v1569766746/1.7919327.4101634296.jpg 434w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_540/v1569766746/1.7919327.4101634296.jpg 540w',
-            'https://images.haarets.co.il/image/upload/c_fill,f_auto,q_auto,w_680/v1569766746/1.7919327.4101634296.jpg 680w',
+            'https://img.haarets.co.il/img/1.7919327/4101634296.jpg?width=180 180w',
+            'https://img.haarets.co.il/img/1.7919327/4101634296.jpg?width=270 270w',
+            'https://img.haarets.co.il/img/1.7919327/4101634296.jpg?width=360 360w',
+            'https://img.haarets.co.il/img/1.7919327/4101634296.jpg?width=434 434w',
+            'https://img.haarets.co.il/img/1.7919327/4101634296.jpg?width=540 540w',
+            'https://img.haarets.co.il/img/1.7919327/4101634296.jpg?width=680 680w',
           ].join(',')}
           sizes="(min-width: 1000px) 435.5px, 43.35vw"
           role="presentation"

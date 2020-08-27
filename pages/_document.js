@@ -108,12 +108,8 @@ export default class CustomDocument extends Document {
           <title>{data.seoData.metaTitle}</title>
           {/* Assets and domains */}
           <PreloadJS />
-          <link rel="preconnect" href="https://images.haaretz.co.il" />
-          <link rel=" dns-prefetch" href="https://images.haaretz.co.il" />
-          <link rel="preconnect" href="https://google-analytics.com" />
-          <link rel=" dns-prefetch" href="https://google-analytics.com" />
-          <link rel="preconnect" href="https://s3.amazonaws.com" />
-          <link rel=" dns-prefetch" href="https://s3.amazonaws.com" />
+          <link rel="preconnect" href="https://img.haarets.co.il" />
+          <link rel=" dns-prefetch" href="https://img.haarets.co.il" />
           <Polyfills isPolyfill/>
 
           {/* FAVICONS */}
