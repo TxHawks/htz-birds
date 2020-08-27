@@ -29,7 +29,7 @@ export default function Seo({
   //       : 'full',
   //   }
   // );
-  const ogImageUrl = 'https://images.haarets.co.il/image/upload/c_fill,g_auto,f_auto,q_auto,w_1200,h_630/v1569766334/1.7912412.69811424.jpg';
+  const ogImageUrl = 'https://img.haarets.co.il/img/1.7912412/69811424.jpg?width=1200&height=630&trim=200,0,0';
   const canonical = 'https://www.haaretz.co.il/st/c/static/heb/2019/birds-project/';
 
   return (

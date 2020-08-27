@@ -9,7 +9,7 @@ import Masthead from '../components/Masthead';
 export default function Mainpage() {
   const { css, theme } = useFela();
   const articleClasses = css({
-    backgroundImage: 'url(https://images.haarets.co.il/image/upload/f_auto,q_auto/v1570030424/1.7926696.648593241.jpg)',
+    backgroundImage: 'url(https://img.haarets.co.il/img/1.7926696/648593241.jpg)',
     backgroundRepeat: 'repeat',
     paddingBottom: '8rem',
     ':after': {

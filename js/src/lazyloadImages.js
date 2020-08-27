@@ -7,6 +7,7 @@ export default async function lazyloadImage() {
         img.classList.add('lazyloaded');
       });
 
+      debugger;
       // populate `src` and `srcset` from `data-` attributes
       const { src, srcset } = img.dataset;
       if (srcset) img.srcset = srcset;
