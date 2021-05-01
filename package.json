@@ -19,7 +19,7 @@
     "@haaretz/htz-theme": "^1.3.0",
     "fela": "^10.6.1",
     "fela-dom": "^10.6.1",
-    "lazysizes": "^5.1.1",
+    "lazysizes": "^5.2.1",
     "lodash": "^4.17.19",
     "next": "^9.0.6",
     "porp-types": "^0.0.1-security",
