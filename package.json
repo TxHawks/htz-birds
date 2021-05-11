@@ -20,7 +20,7 @@
     "fela": "^10.6.1",
     "fela-dom": "^10.6.1",
     "lazysizes": "^5.2.1",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "next": "^9.0.6",
     "porp-types": "^0.0.1-security",
     "react": "^16.9.0",
